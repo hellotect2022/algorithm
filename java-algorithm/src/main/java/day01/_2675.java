@@ -1,4 +1,4 @@
-package day05;
+package day01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-public class Main {
+public class _2675 {
     public static void main(String[] args) throws IOException {
         //case1();
         //case2();

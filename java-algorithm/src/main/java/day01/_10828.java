@@ -1,9 +1,9 @@
-package day02;
+package day01;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Main {
+public class _10828 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         Stack<String> stringStack = new Stack<>();

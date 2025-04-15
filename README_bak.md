@@ -14,7 +14,7 @@
 | 2025-04-13  | 단어의 개수 - 1152 | [링크](https://www.acmicpc.net/problem/1152) |       ✅     |
 | 2025-04-14  | 문자열 집합 - 14425 | [링크](https://www.acmicpc.net/problem/14425) |      ✅       |
 | 2025-04-15  | ROT13 - 11655 | [링크](https://www.acmicpc.net/problem/11655) |       ✅     |
-| 2025-04-16  | 좌표 정렬하기 - 11650 | [링크](https://www.acmicpc.net/problem/11650) |            |
+| 2025-04-16  | 좌표 정렬하기 - 11650 | [링크](https://www.acmicpc.net/problem/11650) |     ✅       |
 | 2025-04-17  | 좌표 정렬하기 2 - 11651 | [링크](https://www.acmicpc.net/problem/11651) |            |
 | 2025-04-18  | 소트인사이드 - 1427 | [링크](https://www.acmicpc.net/problem/1427) |            |
 | 2025-04-19  | 수 정렬하기 2 - 2751 | [링크](https://www.acmicpc.net/problem/2751) |            |

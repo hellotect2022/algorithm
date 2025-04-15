@@ -1,11 +1,11 @@
-package day08;
+package day01;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class Main {
+public class _11655 {
     public static void main(String[] args) throws IOException {
         //ex1();
         ex1_better();
