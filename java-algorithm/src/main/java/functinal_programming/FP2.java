@@ -17,7 +17,6 @@ public class FP2 {
         StringBuilder sb = new StringBuilder();
         HashMap<String,Integer> wordMap = new HashMap<>();
         Files.lines(path)
-                //.parallel()
                 .flatMap(line-> Arrays.stream(line.split("\\s+")))
                 .forEach(w->{
                     wordMap.put(w,wordMap.containsKey(w) ? wordMap.get(w) + 1 : 1);
