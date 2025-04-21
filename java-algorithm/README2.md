@@ -23,4 +23,6 @@
 | 2025-04-15 | [소수 - 2581](src/main/resources/2581.md)           | [링크](https://www.acmicpc.net/problem/2581)  | ✅        |
 | 2025-04-15 | [소인수분해 - 11653](src/main/resources/11653.md)      | [링크](https://www.acmicpc.net/problem/11653) | ✅        |
 | 2025-04-16 | [기적의 매매법 - 20546번](src/main/resources/20546.md)   | [링크](https://www.acmicpc.net/problem/20546) | ✅        |
-| 2025-04-18 | [덩치 - 7586번](src/main/resources/7586.md)          | [링크](https://www.acmicpc.net/problem/7568) | ✅        |
+| 2025-04-18 | [덩치 - 7586번](src/main/resources/7586.md)          | [링크](https://www.acmicpc.net/problem/7568)  | ✅        |
+| 2025-04-21 | [동전 - 11047번](src/main/resources/11047.md)        | [링크](https://www.acmicpc.net/problem/11047) | ✅        |
+| 2025-04-21 | [회의실 배정 - 1931번](src/main/resources/1931.md)          | [링크](https://www.acmicpc.net/problem/1931)  | ⬜        |
