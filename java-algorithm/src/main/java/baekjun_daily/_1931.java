@@ -11,37 +11,37 @@ public class _1931 {
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
         int cnt = Integer.parseInt(bf.readLine());
-        //List<Time> timeList = new ArrayList<>();
-        Map<String,Time> timeMap = new HashMap<>();
+        List<Time> timeList = new ArrayList<>();
+
         for (int i=0; i<cnt; i++) {
             String[] times = bf.readLine().split(" ");
             int start = Integer.parseInt(times[0]);
             int end = Integer.parseInt(times[1]);
             Time time = new Time(start,end);
-            String uuid = UUID.randomUUID().toString();
-            timeMap.put(uuid, time);
+            timeList.add(time);
         }
 
-        AtomicInteger topDepth = new AtomicInteger();
-//        timeMap.keySet().stream().forEach(key-> {
-//            ArrayList<String> testedKey = new ArrayList<>();
-//
-//
-//            testedKey.add(key);
-//            Time time = timeMap.get(key);
-//            int lastTime = time.getE();
-//            topDepth.getAndIncrement();
-//            List<String> remains = timeMap.keySet().stream().filter(i-> !key.contains(i)).filter(k -> timeMap.get(k).getS() > lastTime).collect(Collectors.toList());
-//
-//            remains.stream().forEach(key2-> {
-//                testedKey.add(key2);
-//                Time time2 = timeMap.get(key2);
-//                int lastTime2 = time.getE();
-//                topDepth.getAndIncrement();
-//
-//
-//            });
-        //});
+        // greedy 탐색
+        // 마지막 시간을 기준으로 가장 적은 숫자로 정렬을 해야 최적의 경로를 찾을 수 있다.
+        timeList.sort((a,b)-> {
+            return a.getE() == b.getE() ? Integer.compare(a.getS(),b.getS()) : Integer.compare(a.getE(),b.getE());
+        });
+        timeList.forEach(i->System.out.println(i.getS()+":"+i.getE()));
+
+        ArrayList<Time> greedyList = new ArrayList<>();
+        int lastTime=0;
+        for (Time time : timeList) {
+            int endTime = time.getE();
+            int startTime = time.getS();
+
+            if (lastTime <= startTime) {
+                greedyList.add(time);
+                lastTime = endTime;
+            }
+        }
+
+        greedyList.forEach(i-> System.out.print("["+i.getS()+":"+i.getE()+"] "));
+        System.out.println(greedyList.size());
     }
 
     static class Time {
