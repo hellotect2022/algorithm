@@ -324,13 +324,14 @@
 ---
 ### 23. 그리디 알고리즘
 
-| 날짜 | 문제 | 링크 | 완료 여부 |
-|:----:|:------|:------|:----------:|
-| 2025-04-20 | [동전 0 - 11047](src/main/resources/23_docs/11047.md) | [링크](https://www.acmicpc.net/problem/11047) | ⬜ |
-| 2025-04-20 | [ATM - 11399](src/main/resources/23_docs/11399.md) | [링크](https://www.acmicpc.net/problem/11399) | ⬜ |
-| 2025-04-20 | [회의실 배정 - 1931](src/main/resources/23_docs/1931.md) | [링크](https://www.acmicpc.net/problem/1931) | ⬜ |
-| 2025-04-20 | [보물 - 1026](src/main/resources/23_docs/1026.md) | [링크](https://www.acmicpc.net/problem/1026) | ⬜ |
-| 2025-04-20 | [잃어버린 괄호 - 1541](src/main/resources/23_docs/1541.md) | [링크](https://www.acmicpc.net/problem/1541) | ⬜ |
+| 날짜 | 문제                                           | 링크 | 완료 여부 |
+|:----:|:---------------------------------------------|:------|:----------:|
+| 2025-04-20 | [동전 0 - 11047](src/main/resources/11047.md)  | [링크](https://www.acmicpc.net/problem/11047) | ✅ |
+| 2025-04-20 | [ATM - 11399](src/main/resources/11399.md)   | [링크](https://www.acmicpc.net/problem/11399) | ✅ |
+| 2025-04-20 | [회의실 배정 - 1931](src/main/resources/1931.md)  | [링크](https://www.acmicpc.net/problem/1931) | ✅ |
+| 2025-04-20 | [보물 - 1026](src/main/resources/1026.md)      | [링크](https://www.acmicpc.net/problem/1026) | ✅ |
+| 2025-04-20 | [잃어버린 괄호 - 1541](src/main/resources/1541.md) | [링크](https://www.acmicpc.net/problem/1541) | ✅ |
+| 2025-04-20 | [주유소 - 13305](src/main/resources/13305.md)   | [링크](https://www.acmicpc.net/problem/13305) | ✅ |
 ---
 ### 24. 분할 정복
 

@@ -1,4 +1,4 @@
-package p_09;
+package baekjun_daily;
 
 import java.io.BufferedReader;
 import java.io.IOException;
