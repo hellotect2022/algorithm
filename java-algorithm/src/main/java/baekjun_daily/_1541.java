@@ -5,34 +5,26 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 public class _1541 {
     public static void main(String[] args) throws IOException {
         ArrayList<String> tokenList = new ArrayList<>();
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-
-        char[] array = bf.readLine().toCharArray();
+        // -를 기준으로 문자열을 분할합니다.
+        // 첫 번째 파트는 그냥 덧셈합니다.
+        // 이후 파트들은 모두 내부의 +를 계산한 후 결과값에서 뺍니다.
         String line = bf.readLine();
-        //line.substring(line.indexOf('-'))
-        int lastIndex = 0;
-        for (int i =0; i<array.length; i++ ) {
-            System.out.println(array[i] + " : " +(char) array[i]);
-            if ('-'==array[i]) {
-                tokenList.add(String.valueOf(Arrays.copyOfRange(array,lastIndex,i)));
-                lastIndex = i;
-            }else if ('+'==array[i]) {
-                tokenList.add(String.valueOf(Arrays.copyOfRange(array,lastIndex,i)));
-                lastIndex = i;
+        String[] valueList = line.split("[-]");
+        int sum = Arrays.stream(valueList[0].split("[+]")).mapToInt(Integer::parseInt).sum();
+
+        for (int i=1; i< valueList.length; i++) {
+            //System.out.println(valueList[i]);
+            String[] value = valueList[i].split("[+]");
+            for (String val : value) {
+                sum -= Integer.parseInt(val);
             }
         }
 
-        tokenList.forEach(System.out::println);
-
-//        String[] list = bf.readLine().split("[-+]");
-//        for (int i=0; i<list.length; i++) {
-//            System.out.println(list[i]);
-//        }
-
+        System.out.println(sum);
     }
 }

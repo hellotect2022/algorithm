@@ -26,4 +26,5 @@
 | 2025-04-18 | [덩치 - 7586번](src/main/resources/7586.md)          | [링크](https://www.acmicpc.net/problem/7568)  | ✅        |
 | 2025-04-21 | [동전 - 11047번](src/main/resources/11047.md)        | [링크](https://www.acmicpc.net/problem/11047) | ✅        |
 | 2025-04-21 | [회의실 배정 - 1931번](src/main/resources/1931.md)      | [링크](https://www.acmicpc.net/problem/1931)  | ✅        |
-| 2025-04-25 | [ATM - 11399번](src/main/resources/11399.md)       | [링크](https://www.acmicpc.net/problem/11399)  | ✅        |
+| 2025-04-25 | [ATM - 11399번](src/main/resources/11399.md)       | [링크](https://www.acmicpc.net/problem/11399) | ✅        |
+| 2025-04-28 | [잃어버린 괄호 - 1541번](src/main/resources/1541.md)     | [링크](https://www.acmicpc.net/problem/1541)  | ✅        |
